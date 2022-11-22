@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: rgba(153, 196, 185, 0.884);
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */

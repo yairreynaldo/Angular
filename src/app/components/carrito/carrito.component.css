@@ -1,0 +1,27 @@
+.modal {
+    display: flex;
+}
+
+.active {
+    display: flex;
+}
+
+.offcanvas-header {
+    border-bottom: 1px solid;
+}
+
+.cart-btns {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cart-btns button {
+    width: 30%;
+    height: 40px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+}

@@ -1,0 +1,129 @@
+<div class="cont-carrs">
+
+    <div class="container-fluid py-5" id="west">
+        <h1 class="text-center pb-4">West Jersey's</h1>
+        <div id="carouselExampleIndicatorsW" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" *ngFor="let item of slidesW; let i = index">
+                    <!-- <div class="cards-wrapper" *ngFor="let tshirt of tshirts;index as i"> -->
+                    <div class="cards-wrapper" [ngClass]="{'d-none d-md-block': cardIndex !== 0}" *ngFor="let tshirt of item; let cardIndex = index">
+
+                        <div class="card">
+                            <img [src]="tshirt.img" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="prec">
+                                    <h5 class="card-title" id="cardName">{{tshirt.nombre}}</h5>
+                                    <h5 class="card-title" id="cardPrec">{{tshirt.precio | currency}}</h5>
+                                </div>
+                                <div class="card-buy" *ngIf="tshirt.stock > 0">
+                                    <a (click)="addToCart(tshirt)" class="btn btn-outline-success">Add To Cart</a>
+                                    <div class="quant">
+                                        <button (click)="downQuantity(tshirt)" class="btn btn-success">-</button>
+                                        <input class="input-quant" type="number" [(ngModel)]="tshirt.quantity">
+                                        <button (click)="upQuantity(tshirt)" class="btn btn-success">+</button>
+                                    </div>
+
+                                </div>
+                                <span class="badge text-bg-warning" *ngIf="tshirt.stock == 0">SIN STOCK</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsW" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsW" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid py-5" id="east">
+        <h1 class="text-center pb-4">East Jersey's</h1>
+        <div id="carouselExampleIndicatorsE" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" *ngFor="let item of slidesE; let i = index">
+                    <!-- <div class="cards-wrapper" *ngFor="let tshirt of tshirts;index as i"> -->
+                    <div class="cards-wrapper" [ngClass]="{'d-none d-md-block': cardIndex !== 0}" *ngFor="let tshirt of item; let cardIndex = index">
+
+                        <div class="card">
+                            <img [src]="tshirt.img" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="prec">
+                                    <h5 class="card-title" id="cardName">{{tshirt.nombre}}</h5>
+                                    <h5 class="card-title" id="cardPrec">{{tshirt.precio | currency}}</h5>
+                                </div>
+                                <div class="card-buy" *ngIf="tshirt.stock > 0">
+                                    <a (click)="addToCart(tshirt)" class="btn btn-outline-success">Add To Cart</a>
+                                    <div class="quant">
+                                        <button (click)="downQuantity(tshirt)" class="btn btn-success">-</button>
+                                        <input class="input-quant" type="number" [(ngModel)]="tshirt.quantity">
+                                        <button (click)="upQuantity(tshirt)" class="btn btn-success">+</button>
+                                    </div>
+
+                                </div>
+                                <span class="badge text-bg-warning" *ngIf="tshirt.stock == 0">SIN STOCK</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsE" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsE" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid py-5" id="retro">
+        <h1 class="text-center pb-4">Retro Jersey's</h1>
+        <div id="carouselExampleIndicatorsR" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" *ngFor="let item of slidesR; let i = index">
+                    <!-- <div class="cards-wrapper" *ngFor="let tshirt of tshirts;index as i"> -->
+                    <div class="cards-wrapper" [ngClass]="{'d-none d-md-block': cardIndex !== 0}" *ngFor="let tshirt of item; let cardIndex = index">
+
+                        <div class="card">
+                            <img [src]="tshirt.img" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="prec">
+                                    <h5 class="card-title" id="cardName">{{tshirt.nombre}}</h5>
+                                    <h5 class="card-title" id="cardPrec">{{tshirt.precio | currency}}</h5>
+                                </div>
+                                <div class="card-buy" *ngIf="tshirt.stock > 0">
+                                    <a (click)="addToCart(tshirt)" class="btn btn-outline-success">Add To Cart</a>
+                                    <div class="quant">
+                                        <button (click)="downQuantity(tshirt)" class="btn btn-success">-</button>
+                                        <input class="input-quant" type="number" [(ngModel)]="tshirt.quantity">
+                                        <button (click)="upQuantity(tshirt)" class="btn btn-success">+</button>
+                                    </div>
+
+                                </div>
+                                <span class="badge text-bg-warning" *ngIf="tshirt.stock == 0">SIN STOCK</span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsR" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsR" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Your Cart</h5>
+        <h5 class="offcanvas-title">{{calcTotal() | currency}}</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="card mb-3" style="max-width: 540px;" *ngFor="let t of items">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img [src]="t.img" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <button (click)="deleteItem(t)" type="button" class="btn-close float-end" aria-label="Close"></button>
+                        <h5 class="card-title">{{t.nombre}}</h5>
+                        <p class="card-text">{{t.precio | currency}}</p>
+                        <p class="card-text">x{{t.quantity}}</p>
+                        <p class="card-text"><small class="text-muted">Added 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cart-btns">
+        <button (click)="emptyCart()" class="btn btn-outline-danger">Empty</button>
+        <button class="btn btn-outline-success">Buy</button>
+    </div>
+</div>
