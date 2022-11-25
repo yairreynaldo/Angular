@@ -8,7 +8,7 @@ export class TshirtsService {
    tshirts: Tshirt[] = [
         {
           nombre: "Grizzlies Away",
-          img: "assets/img/mephis.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/mephis.png",
           precio: 500,
           tipo: "west",
           hayStock: true,
@@ -17,7 +17,7 @@ export class TshirtsService {
         },
         {
           nombre: "Jazz Icon Edition",
-          img: "assets/img/jazzIcon.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/jazzIcon.png",
           precio: 500,
           tipo: "west",
           hayStock: true,
@@ -26,7 +26,7 @@ export class TshirtsService {
         },
         {
           nombre: "Lakers City Edition",
-          img: "assets/img/lakersCity.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/lakersCity.png",
           precio: 500,
           tipo: "west",
           hayStock: true,
@@ -35,7 +35,7 @@ export class TshirtsService {
         },
         {
           nombre: "Spurs Home",
-          img: "assets/img/spursAway.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/spursAway.png",
           precio: 500,
           tipo: "west",
           hayStock: true,
@@ -44,7 +44,7 @@ export class TshirtsService {
         },
         {
           nombre: "Celtics Away",
-          img: "assets/img/celticsAway.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/celticsAway.png",
           precio: 500,
           tipo: "east",
           hayStock: true,
@@ -53,7 +53,7 @@ export class TshirtsService {
         },
         {
           nombre: "Pacers Home",
-          img: "assets/img/pacersHome.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/pacersHome.png",
           precio: 500,
           tipo: "east",
           hayStock: true,
@@ -62,7 +62,7 @@ export class TshirtsService {
         },
         {
           nombre: "76ers 97/98",
-          img: "assets/img/76ersRetro.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/76ersRetro.png",
           precio: 500,
           tipo: "retro",
           hayStock: true,
@@ -71,7 +71,7 @@ export class TshirtsService {
         },
         {
           nombre: "SuperSonics 95/96",
-          img: "assets/img/sonics.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/sonics.png",
           precio: 500,
           tipo: "retro",
           hayStock: true,
@@ -80,7 +80,7 @@ export class TshirtsService {
         },
         {
           nombre: "Hawks 96/97",
-          img: "assets/img/hawksRetro.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/hawksRetro.png",
           precio: 500,
           tipo: "retro",
           hayStock: true,
@@ -89,7 +89,7 @@ export class TshirtsService {
         },
         {
           nombre: "Rockets 96/97",
-          img: "assets/img/rocketsRetro.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/rocketsRetro.png",
           precio: 500,
           tipo: "retro",
           hayStock: true,
@@ -98,7 +98,7 @@ export class TshirtsService {
         },
         {
           nombre: "Lakers Home",
-          img: "assets/img/lakerHome.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/lakerHome.png",
           precio: 500,
           tipo: "west",
           hayStock: true,
@@ -107,7 +107,7 @@ export class TshirtsService {
         },
         {
           nombre: "Suns City Edition",
-          img: "assets/img/sunsCity.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/sunsCity.png",
           precio: 500,
           tipo: "west",
           hayStock: true,
@@ -116,7 +116,7 @@ export class TshirtsService {
         },
         {
           nombre: "Bulls Home",
-          img: "assets/img/bullsHome.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/bullsHome.png",
           precio: 500,
           tipo: "east",
           hayStock: true,
@@ -125,7 +125,7 @@ export class TshirtsService {
         },
         {
           nombre: "Heat City Edition",
-          img: "assets/img/heatCity.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/heatCity.png",
           precio: 500,
           tipo: "east",
           hayStock: true,
@@ -134,7 +134,7 @@ export class TshirtsService {
         },
         {
           nombre: "TimberWolves Home",
-          img: "assets/img/wolves.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/wolves.png",
           precio: 500,
           tipo: "west",
           hayStock: true,
@@ -143,7 +143,7 @@ export class TshirtsService {
         },
         {
           nombre: "Warriors City Edition",
-          img: "assets/img/warriorsBlack.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/warriorsBlack.png",
           precio: 500,
           tipo: "west",
           hayStock: true,
@@ -152,7 +152,7 @@ export class TshirtsService {
         },
         {
           nombre: "Nets Away",
-          img: "assets/img/netsAway.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/netsAway.png",
           precio: 500,
           tipo: "east",
           hayStock: true,
@@ -161,7 +161,7 @@ export class TshirtsService {
         },
         {
           nombre: "Raptors Icon Edition",
-          img: "assets/img/raptorsIcon.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/raptorsIcon.png",
           precio: 500,
           tipo: "east",
           hayStock: true,
@@ -170,7 +170,7 @@ export class TshirtsService {
         },
         {
           nombre: "Knicks Home",
-          img: "assets/img/knicksHome.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/knicksHome.png",
           precio: 500,
           tipo: "east",
           hayStock: true,
@@ -179,7 +179,7 @@ export class TshirtsService {
         },
         {
           nombre: "Nets City Edition",
-          img: "assets/img/netsCity.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/netsCity.png",
           precio: 500,
           tipo: "east",
           hayStock: true,
@@ -188,7 +188,7 @@ export class TshirtsService {
         },
         {
           nombre: "Bulls Jordan 95/96",
-          img: "assets/img/jordanRetro.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/jordanRetro.png",
           precio: 500,
           tipo: "retro",
           hayStock: true,
@@ -197,7 +197,7 @@ export class TshirtsService {
         },
         {
           nombre: "Raptors 98/99",
-          img: "assets/img/raptorsRetro.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/raptorsRetro.png",
           precio: 500,
           tipo: "retro",
           hayStock: true,
@@ -206,7 +206,7 @@ export class TshirtsService {
         },
         {
           nombre: "Magics 94/95",
-          img: "assets/img/magicRetro.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/magicRetro.png",
           precio: 500,
           tipo: "retro",
           hayStock: true,
@@ -215,7 +215,7 @@ export class TshirtsService {
         },
         {
           nombre: "Lakers Kobe 07/08",
-          img: "assets/img/kobeRetro.png",
+          img: "https://raw.githubusercontent.com/yairreynaldo/Angular/main/src/assets/img/kobeRetro.png",
           precio: 500,
           tipo: "retro",
           hayStock: true,
